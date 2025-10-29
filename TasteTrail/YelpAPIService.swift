@@ -10,10 +10,7 @@ struct YelpRestaurantData {
 }
 
 class YelpAPIService {
-    // Yelp API Key
-    private static let apiKey = "44vl-dVEnjn8lH2lvi7Xyc7dfeShYXf1xgr9w7cHXGh2_8qacxOkrvaBjR8QgDp5H2gZy3_fBMlSv_dIfvZ67QV3RRJXBALFj5iAPFmW-ZJ54AxdYRhqfk24YcbraHYx"
-    private static let baseURL = "https://api.yelp.com/v3"
-    
+    // Yelp API Ke    
     /// Sucht Restaurant-Daten von Yelp API
     static func fetchRestaurantData(
         name: String,
